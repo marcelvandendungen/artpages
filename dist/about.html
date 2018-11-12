@@ -11,28 +11,48 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a href="/"><img class="signature" src="img/sig.gif" alt="signature" /></a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+            </button>
+            <a class="navbar-brand" href="/"><img class="signature" src="img/sig.gif" alt="signature" /></a>
             </div>
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="/">Home</a></li>
                     <li class="active"><a href="/about">About</a></li>
-                    <li><a href="/portfolio">Portfolio</a></li>
-                    <li><a href="/links">Links</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/portfolio">Portfolio</a></li> 
+                    <li><a href="/links">Links</a></li> 
+                    <li><a href="/contact">Contact</a></li> 
                 </ul>
             </div>
         </div>
     </nav>
 
-    </span>
-    <h1>About me</h1>
+    <h1>About</h1>
 
-    <div class="status">
-        <span class="first">Under</span>&nbsp;<span class="second">Construction</span>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <img src="img/Ilse.jpg" alt="Ilse Leijten">                    
+            </div>
+            <div class="col-md-4">Her abstract works are colorful, spacious and serene. They have often a rural theme.
+                    She took classes with Bianca Snip and Marianne van den Wijngaard.
+                    
+                    "I choose color and composition based entirely on my feelings at that particular moment. I compose my painting of multiple layers of paint. By polishing and brushing, the lower layers surface again. In this way I create an inspired and seasoned image while maintaining an uncomplicated and quiet atmosphere. This is what I would like to communicate to the viewer. I often use different kinds of mediums."
+                    
+                    "I get my inspiration from nature with all its colors and shades. For me painting equals pure passion and pleasure. It’s an enormous wealth to have the opportunity to clear my head in this way. I could not do without it anymore!"
+                    
+                    "Enjoy!"
+            </div>
+            <div class="status">
+                <span class="first">Under</span>&nbsp;<span class="second">Construction</span>
+            </div>
+        </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
