@@ -33,3 +33,12 @@ h1 {
     background-color: #1B1B1B;
     border-color: #1B1B1B;
 }
+
+.img-rounded {
+    border-radius: 6px;
+}
+img {
+    margin-left: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
