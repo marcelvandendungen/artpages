@@ -91,8 +91,12 @@ body {
 .footer {
     position: fixed;
     text-align: right;
-    padding-right: 10px;
+    padding-right: 1em;
     bottom: 0;
     width: 100%;
     background-color: #1B1B1B;
+  }
+
+  .row {
+    padding-bottom: 3em;
   }
