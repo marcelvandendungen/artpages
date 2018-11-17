@@ -38,10 +38,6 @@ body {
     padding: 10px 15px;
 }
 
-/* .navbar-nav {
-    margin: 27.5px -15px;
-} */
-
 .navbar-inverse {
     background-color: #1B1B1B;
 }
@@ -92,6 +88,11 @@ body {
     letter-spacing: 0.1em;
 }
 
-/* .links {
-    margin-left: 4em;
-} */
+.footer {
+    position: fixed;
+    text-align: right;
+    padding-right: 10px;
+    bottom: 0;
+    width: 100%;
+    background-color: #1B1B1B;
+  }
