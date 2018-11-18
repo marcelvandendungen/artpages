@@ -97,6 +97,10 @@ body {
     background-color: #1B1B1B;
   }
 
-  .row {
+.row {
     padding-bottom: 3em;
-  }
+}
+
+.nav>li>a {
+    text-align: center;
+}
