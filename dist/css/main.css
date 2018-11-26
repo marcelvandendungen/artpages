@@ -73,7 +73,7 @@ body {
 
 .thumb {
     margin-top: 1em;
-    margin-bottom: 2em;
+    /* margin-bottom: 2em; */
 }
 
 .link a {
@@ -98,9 +98,19 @@ body {
   }
 
 .row {
-    padding-bottom: 3em;
+    padding-bottom: 2em;
 }
 
 .nav>li>a {
     text-align: center;
+}
+
+.title {
+    font-size: smaller;
+    color: #fdfdfdde;
+}
+
+.subtitle {
+    font-size: smaller;
+    color: #fdfdfd96;
 }
